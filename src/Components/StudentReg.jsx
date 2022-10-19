@@ -1,21 +1,66 @@
+import { Link } from "react-router-dom"
+
 const StudentReg = () => {
     return (
-        <div className="container">
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <div className="container mt-5 py-5">
+            <h2>Student Sign up. </h2> 
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Firstname</label>
+                    <input type="text" class="form-control" id="inputEmail4" />
                 </div>
-                <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" />
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Lastname</label>
+                    <input type="text" class="form-control" id="inputPassword4" />
                 </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                <div class="col-md-6">
+                    <label for="inputAddress" class="form-label">Permanent Address</label>
+                    <input type="text" class="form-control" id="inputAddress"  />
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="col-md-6">
+                    <label for="inputAddress2" class="form-label">Contact Number</label>
+                    <input type="text" class="form-control" id="inputAddress2"  />
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Image</label>
+                    <input type="file" class="form-control" id="inputCity" />
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Gender</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputZip" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputZip" />
+                </div>
+                <div class="col-md-4">
+                    <label for="inputZip" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputZip" />
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Program</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>BSIS</option>
+                        <option>BSIT</option>
+                        <option>BSCS</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" />
+                            <label class="form-check-label" for="gridCheck">
+                                Check me out
+                            </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <Link to="/StudentForm" type="submit" class="btn btn-primary">Create Account</Link>
+                </div>
             </form>
         </div>
     );
