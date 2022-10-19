@@ -1,9 +1,18 @@
-const Home = () => {
-    return ( 
-        <div className="container">
+import { Link } from "react-router-dom";
 
-        </div>
-     );
+const Home = () => {
+    return (
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        Column
+                    </div>
+                    <div class="col">
+                        Column
+                    </div>
+                </div>
+            </div>
+    );
 }
- 
+
 export default Home;
