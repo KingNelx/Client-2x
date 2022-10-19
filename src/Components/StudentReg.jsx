@@ -26,11 +26,14 @@ const StudentReg = () => {
                     <input type="file" class="form-control" id="inputCity" />
                 </div>
                 <div class="col-md-4">
-                    <label for="inputState" class="form-label">Gender</label>
+                    <label for="inputState" class="form-label">Religion</label>
                     <select id="inputState" class="form-select">
                         <option selected>Choose...</option>
-                        <option>Male</option>
-                        <option>Female</option>
+                        <option>Christianity</option>
+                        <option>Islam</option>
+                        <option>Hinduism</option>
+                        <option>Buddhism</option>
+                        <option>Satanic</option>
                     </select>
                 </div>
                 <div class="col-md-4">
@@ -54,7 +57,7 @@ const StudentReg = () => {
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" id="gridCheck" />
                             <label class="form-check-label" for="gridCheck">
-                                Check me out
+                               Terms of Policy
                             </label>
                     </div>
                 </div>

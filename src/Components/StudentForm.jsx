@@ -20,10 +20,10 @@ const StudentForm = () => {
                 </div>
                 <div>
                     <Link>
-                        <div class="form-check">
+                        <div class="form-check mt-2 mb-2">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate" />
                                 <label class="form-check-label" for="flexCheckIndeterminate">
-                                    Indeterminate checkbox
+                                  Terms of Policy
                                 </label>
                         </div> </Link>
                 </div>
