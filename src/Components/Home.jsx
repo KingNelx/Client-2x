@@ -14,7 +14,7 @@ const Home = () => {
                         } />
                         <div class="card-body">
                             <h5 class="card-title">ADMIN</h5>
-                            <Link to="/AdminReg" class="btn btn-primary">Select</Link>
+                            <Link to="/AdminForm" class="btn btn-primary">Select</Link>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ const Home = () => {
                         } />
                         <div class="card-body">
                             <h5 class="card-title">STUDENT</h5>
-                            <Link class="btn btn-primary">Select</Link>
+                            <Link to="/StudentForm" class="btn btn-primary">Select</Link>
                         </div>
                     </div>
                 </div>
