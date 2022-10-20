@@ -37,12 +37,17 @@ const StudentReg = () => {
                     </select>
                 </div>
                 <div class="col-md-4">
-                    <label for="inputZip" class="form-label">Email</label>
+                    <label for="inputZip" class="form-label">ID No</label>
                     <input type="email" class="form-control" id="inputZip" />
                 </div>
-                <div class="col-md-4">
-                    <label for="inputZip" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="inputZip" />
+                <div class="col-md-2">
+                <label for="inputState" class="form-label">Block</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>A</option>
+                        <option>B</option>
+                        <option>C</option>
+                    </select>
                 </div>
                 <div class="col-md-4">
                     <label for="inputState" class="form-label">Program</label>
@@ -62,7 +67,7 @@ const StudentReg = () => {
                     </div>
                 </div>
                 <div class="col-12">
-                    <Link to="/StudentForm" type="submit" class="btn btn-primary">Create Account</Link>
+                    <Link to="/StudentForm" type="submit" class="btn btn-primary">Register</Link>
                 </div>
             </form>
         </div>
