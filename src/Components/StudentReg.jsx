@@ -21,9 +21,9 @@ const StudentReg = () => {
                     <label for="inputAddress2" class="form-label">Contact Number</label>
                     <input type="text" class="form-control" id="inputAddress2"  />
                 </div>
-                <div class="col-md-6">
-                    <label for="inputCity" class="form-label">Image</label>
-                    <input type="file" class="form-control" id="inputCity" />
+                <div class="col-md-4">
+                    <label for="inputCity" class="form-label">Birthday</label>
+                    <input type="text" class="form-control" id="inputCity" />
                 </div>
                 <div class="col-md-4">
                     <label for="inputState" class="form-label">Religion</label>
