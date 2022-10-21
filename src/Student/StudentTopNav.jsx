@@ -1,5 +1,5 @@
 import StudentDashB from "./StudentDashB";
-
+import {Link} from "react-router-dom"
 const StudentTopNav = () => {
     return (
         <div className="mx-2 py-3">
@@ -11,7 +11,7 @@ const StudentTopNav = () => {
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Settings</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">PROFILE</a></li>
-                        <li><a class="dropdown-item" href="#">SIGN OUT</a></li>
+                        <li><Link to="/" class="dropdown-item" href="#">SIGN OUT</Link></li>
                     </ul>
                 </li>
             </ul>
