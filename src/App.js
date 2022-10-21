@@ -11,6 +11,7 @@ import StudentForm from './Components/StudentForm';
 import StudentReg from './Components/StudentReg';
 import StudentTopNav from './Student/StudentTopNav';
 import AdminTopNav from './Admin/AdminTopNav';
+import StudentDashB from './Student/StudentDashB';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Route path="StudentReg" element={<StudentReg />} />
       <Route path="studentHOME" element={<StudentTopNav />} />
       <Route path="adminHOME" element={<AdminTopNav />} />
+      <Route path="adminDashB"  element={<StudentDashB />} />
     </Routes>
    </Router>
   );
