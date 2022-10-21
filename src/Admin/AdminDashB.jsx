@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const AdminDashB = () => {
     return (
         <div className="container mt-5 py-5">
@@ -10,11 +12,10 @@ const AdminDashB = () => {
                         }>
                             <img src="https://laconcordia.edu.ph/assets/icon/stu.png" class="card-img-top" alt="..." style={{
                                 height: "30vh"
-                            }}  />
+                            }} />
                             <div class="card-body">
                                 <h5 class="card-title">BSIS 1st year</h5>
-
-                                <a href="#" class="btn btn-primary">Select</a>
+                                <Link to="/bsis1" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
@@ -27,8 +28,7 @@ const AdminDashB = () => {
                             }} />
                             <div class="card-body">
                                 <h5 class="card-title">BSIS 2nd Year </h5>
-
-                                <a href="#" class="btn btn-primary">Select</a>
+                                <Link class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const AdminDashB = () => {
                             }} />
                             <div class="card-body">
                                 <h5 class="card-title">Enroll</h5>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <Link class="btn btn-primary">Go somewhere</Link>
                             </div>
                         </div>
                     </div>

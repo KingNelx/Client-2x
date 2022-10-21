@@ -8,18 +8,19 @@ const Bsis1 = () => {
                         <th scope="col">First name</th>
                         <th scope="col">Last name</th>
                         <th scope="col">Address</th>
-                        <th>
-                            <button type="button" class="btn btn-outline-primary">Primary</button>
-                            <button type="button" class="btn btn-outline-danger">Danger</button>
-                        </th>
+                        <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td>Jonel</td>
+                        <td>Tapia</td>
+                        <td>Bato</td>
+                        <td>
+                            <button type="button" class="btn btn-outline-primary">Primary</button>
+                            <button type="button" class="btn btn-outline-danger">Danger</button>
+                        </td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
