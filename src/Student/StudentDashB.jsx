@@ -1,4 +1,5 @@
 const StudentDashB = () => {
+
     return (
         <div className="container">
             <table class="table ">
@@ -29,4 +30,5 @@ const StudentDashB = () => {
     );
 }
 
+ 
 export default StudentDashB;

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 const Home = () => {
     return (
         <div class="container text-center mt-5 py-5">
-            <h2 className="py-2 my-2"> Select User </h2> 
             <div class="row">
                 <div class="col">
                     <div class="card mx-auto" style={
@@ -32,6 +31,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <p className="mt-5"> Student Profile </p>
         </div>
     );
 }

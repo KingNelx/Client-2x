@@ -18,6 +18,15 @@ const StudentForm = () => {
                     <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" required placeholder="Confirm Password" />
                 </div>
+                <div>
+                    <Link>
+                        <div class="form-check mt-2 mb-2">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate" />
+                                <label class="form-check-label" for="flexCheckIndeterminate">
+                                  Terms of Policy
+                                </label>
+                        </div> </Link>
+                </div>
                 <Link to="/studentHOME" type="submit" class="btn btn-outline-primary mx-2">Submit</Link>
                 <Link to="/" type="submit" class="btn btn-outline-success ">Go Back</Link>
                 <Link to="/StudentReg" className="px-3">No Account? Go Sign up</Link>
