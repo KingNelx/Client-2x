@@ -2,6 +2,7 @@ const StudentDashB = () => {
     return (
         <div className="container mt-5 py-5">
             <div class="container text-center">
+                <h2 className="py-2"> Student </h2>
                 <div class="row">
                     <div class="col">
                         <div class="card mx-auto" style={
@@ -13,7 +14,7 @@ const StudentDashB = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Check Requirements</h5>
 
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Select</a>
                             </div>
                         </div>
                     </div>
@@ -27,7 +28,7 @@ const StudentDashB = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Submit Requirement </h5>
 
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Select</a>
                             </div>
                         </div>
                     </div>
@@ -40,7 +41,7 @@ const StudentDashB = () => {
                             }} />
                             <div class="card-body">
                                 <h5 class="card-title">Enroll</h5>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <a href="#" class="btn btn-primary">Select</a>
                             </div>
                         </div>
                     </div>
