@@ -28,7 +28,7 @@ const AdminDashB = () => {
                             }} />
                             <div class="card-body">
                                 <h5 class="card-title">BSIS 2nd Year </h5>
-                                <Link class="btn btn-primary">Select</Link>
+                                <Link to="/bsis2" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
