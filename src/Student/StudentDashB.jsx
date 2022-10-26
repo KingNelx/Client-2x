@@ -16,7 +16,7 @@ const StudentDashB = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Check Requirements</h5>
 
-                                <Link class="btn btn-primary">Select</Link>
+                                <Link  to="/checkReq" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const StudentDashB = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Submit Requirement </h5>
 
-                                <Link class="btn btn-primary">Select</Link>
+                                <Link to="/submitReq" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@ const StudentDashB = () => {
                             }} />
                             <div class="card-body">
                                 <h5 class="card-title">Enroll</h5>
-                                <Link class="btn btn-primary">Select</Link>
+                                <Link to="/enroll" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
