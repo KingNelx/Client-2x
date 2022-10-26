@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 const Bsis1 = () => {
     return (
         <div className="container text-center mt-5">
-            <h2 className="mb-5">Bachelor of Science in Information System</h2>
+            <h2 className="mb-5">Bachelor of Science in Information System - I</h2>
             <table class="table table-striped">
                 <thead>
                     <tr>
