@@ -1,5 +1,5 @@
 
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import AdminDashB from "./AdminDashB";
 const AdminTopNav = () => {
     return (
@@ -16,7 +16,7 @@ const AdminTopNav = () => {
                     </ul>
                 </li>
             </ul>
-        <AdminDashB />
+            <AdminDashB />
         </div>
     );
 }
