@@ -50,7 +50,7 @@ const AdminReg = () => {
                     </div>
                 </div>
                 <div class="col-12">
-                    <Link to="/adminLogin" type="submit" class="btn btn-primary">Create Account</Link>
+                    <Link to="/Adminform" type="submit" class="btn btn-primary">Create Account</Link>
                 </div>
             </form>
         </div>
