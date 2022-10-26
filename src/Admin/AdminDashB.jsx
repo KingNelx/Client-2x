@@ -40,7 +40,7 @@ const AdminDashB = () => {
                                 height: "30vh"
                             }} />
                             <div class="card-body">
-                                <h5 class="card-title">Enroll</h5>
+                                <h5 class="card-title">Enrolled</h5>
                                 <Link to="/allStudents" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
