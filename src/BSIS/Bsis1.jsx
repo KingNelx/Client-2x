@@ -5,6 +5,7 @@ const Bsis1 = () => {
     return (
         <div className="container text-center mt-5">
             <h2 className="mb-5">Bachelor of Science in Information System - I</h2>
+            <p>Enrolled.</p>
             <table class="table table-striped">
                 <thead>
                     <tr>
@@ -18,8 +19,8 @@ const Bsis1 = () => {
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>Rielle</td>
-                        <td>Evangelista</td>
+                        <td>Mariel</td>
+                        <td>Ogerio</td>
                         <td>Bagamanoc</td>
                         <td>
                           <Buttons />
@@ -27,9 +28,12 @@ const Bsis1 = () => {
                     </tr>
                     <tr>
                         <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td>Mariel</td>
+                        <td>Ogerio</td>
+                        <td>Bagamanoc</td>
+                        <td>
+                          <Buttons />
+                        </td>
                     </tr>
                 </tbody>
             </table>

@@ -41,7 +41,7 @@ const AdminDashB = () => {
                             }} />
                             <div class="card-body">
                                 <h5 class="card-title">Enroll</h5>
-                                <Link class="btn btn-primary">Go somewhere</Link>
+                                <Link to="/allStudents" class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>

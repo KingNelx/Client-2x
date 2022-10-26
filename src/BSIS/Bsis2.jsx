@@ -18,8 +18,8 @@ const Bsis2 = () => {
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>Rielle</td>
-                        <td>Evangelista</td>
+                        <td>Mariel</td>
+                        <td>Ogerio</td>
                         <td>Bagamanoc</td>
                         <td>
                           <Buttons />
