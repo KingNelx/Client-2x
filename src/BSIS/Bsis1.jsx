@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Buttons from "../Components/Buttons";
 
 const Bsis1 = () => {
     return (
@@ -21,9 +22,7 @@ const Bsis1 = () => {
                         <td>Evangelista</td>
                         <td>Bagamanoc</td>
                         <td>
-                            <button type="button" class="btn btn-outline-primary mx-2">UPDATE</button>
-                            <button type="button" class="btn btn-outline-danger mx-2">DELETE</button>
-                            <button type="button" class="btn btn-outline-info mx-2">VIEW</button>
+                          <Buttons />
                         </td>
                     </tr>
                     <tr>
