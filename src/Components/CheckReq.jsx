@@ -1,7 +1,10 @@
+import { Link } from "react-router-dom"
+
 const CheckReq = () => {
     return (
-        <div>
-            <table class="table">
+        <div className="container mt-5 ">
+            {/* <h2 className="mt-5">Requirements.</h2>
+            <table class="table text-center">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
@@ -25,6 +28,10 @@ const CheckReq = () => {
                     </tr>
                 </tbody>
             </table>
+            <Link to="/studentHOME">Go Back</Link> */}
+
+            <h2>Still CODING</h2>
+        <Link to="/studentHOME">Go Back</Link> 
         </div>
     );
 }
