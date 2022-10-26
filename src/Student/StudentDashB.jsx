@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const StudentDashB = () => {
     return (
         <div className="container mt-5 py-5">
@@ -10,11 +12,11 @@ const StudentDashB = () => {
                         }>
                             <img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/enrollment-1181386.png" class="card-img-top" alt="..." style={{
                                 height: "30vh"
-                            }}  />
+                            }} />
                             <div class="card-body">
                                 <h5 class="card-title">Check Requirements</h5>
 
-                                <a href="#" class="btn btn-primary">Select</a>
+                                <Link class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
@@ -28,7 +30,7 @@ const StudentDashB = () => {
                             <div class="card-body">
                                 <h5 class="card-title">Submit Requirement </h5>
 
-                                <a href="#" class="btn btn-primary">Select</a>
+                                <Link class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>
@@ -41,7 +43,7 @@ const StudentDashB = () => {
                             }} />
                             <div class="card-body">
                                 <h5 class="card-title">Enroll</h5>
-                                <a href="#" class="btn btn-primary">Select</a>
+                                <Link class="btn btn-primary">Select</Link>
                             </div>
                         </div>
                     </div>

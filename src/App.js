@@ -15,6 +15,9 @@ import StudentDashB from './Student/StudentDashB';
 import Bsis1 from './BSIS/Bsis1';
 import Bsis2 from './BSIS/Bsis2';
 import AllStudents from './BSIS/AllStudents';
+import CheckReq from './Components/CheckReq';
+import SubmitReq from './Components/SubmitReq';
+import Enroll from './Components/Enroll';
 
 const App = () => {
   return (
@@ -31,6 +34,9 @@ const App = () => {
       <Route path="bsis1" element={<Bsis1 />} />
       <Route path="bsis2" element={<Bsis2 />} />
       <Route path="allStudents" element={<AllStudents />} />
+      <Route path="checkReq" element={<CheckReq />} />
+      <Route path="submitReq" element={<SubmitReq />} />
+      <Route path="enroll" element={<Enroll />} />
     </Routes>
    </Router>
   );
