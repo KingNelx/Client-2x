@@ -23,22 +23,21 @@ const StudentReg = () => {
                 </div>
                 <div class="col-md-4">
                     <label for="inputCity" class="form-label">Birthday</label>
-                    <input type="text" class="form-control" id="inputCity" />
+                    <input type="text" class="form-control" id="inputCity" placeholder="YYYY-MM-DD" />
                 </div>
                 <div class="col-md-4">
                     <label for="inputState" class="form-label">Religion</label>
                     <select id="inputState" class="form-select">
                         <option selected>Choose...</option>
-                        <option>Christianity</option>
-                        <option>Islam</option>
-                        <option>Hinduism</option>
-                        <option>Buddhism</option>
-                        <option>Satanic</option>
+                        <option>Roman Catholicism</option>
+                        <option>Iglesia ni Cristo</option>
+                        <option>Seventh-day Adventism</option>
+                        <option>Bible Baptist </option>
                     </select>
                 </div>
                 <div class="col-md-4">
                     <label for="inputZip" class="form-label">ID No</label>
-                    <input type="email" class="form-control" id="inputZip" />
+                    <input type="email" class="form-control" id="inputZip" placeholder="2018-02705" />
                 </div>
                 <div class="col-md-2">
                 <label for="inputState" class="form-label">Block</label>
@@ -47,15 +46,18 @@ const StudentReg = () => {
                         <option>A</option>
                         <option>B</option>
                         <option>C</option>
+                        <option>D</option>
+                        <option>E</option>
+                        <option>F</option>
                     </select>
                 </div>
                 <div class="col-md-4">
                     <label for="inputState" class="form-label">Program</label>
                     <select id="inputState" class="form-select">
                         <option selected>Choose...</option>
-                        <option>BSIS</option>
-                        <option>BSIT</option>
-                        <option>BSCS</option>
+                        <option>BSIS - I</option>
+                        <option>BSIS - II</option>
+                     
                     </select>
                 </div>
                 <div class="col-12">
